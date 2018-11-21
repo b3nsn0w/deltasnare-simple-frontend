@@ -1,0 +1,14 @@
+{
+  "name": "@deltasnare/simple-frontend",
+  "version": "1.0.0",
+  "description": "State manager frontend for simple (single-chunk) games",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Snow <balintbence97@gmail.com>",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "@deltasnare/core": "^1.0.0"
+  }
+}
