@@ -47,6 +47,10 @@ Sets the server's control message for a given tick
 
 Advances the current tick by 1 and emits a `tick` event
 
+### `SimpleSnare.advanceTo(tick)`
+
+Advances to the specified tick and emits `tick` events on the way. Does not advance backwards and cannot go further than the double of the core's window size.
+
 ### `SimpleSnare.currentTick`
 
 The current tick ID. Read-only.

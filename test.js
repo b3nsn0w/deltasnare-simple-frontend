@@ -11,4 +11,5 @@ chunk.on('tick', tick => console.log(tick.state, tick.peers))
 
 chunk.advance()
 chunk.setInput('bar')
-chunk.advance()
+chunk.advanceTo(5)
+chunk.advanceTo(5)
